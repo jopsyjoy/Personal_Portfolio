@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jopsy Joy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- Home Section -->
+<section id="home">
+    <div class="container home-content">
+        <div class="home-text">
+            <h1>Hello, I'm Jopsy Joy</h1>
+            <p>Welcome to my personal portfolio</p>
+            <p class="intro">
+                I am a passionate MCA student with a strong foundation in programming and web development.
+                I enjoy solving real-world problems through code and continuously strive to expand my knowledge and skills.
+            </p> <!-- Introduction -->
+        </div>
+        <div class="home-photo">
+            <img src="photo.jpg" alt="Jopsy Joy's Photo" class="profile-photo">
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm Jopsy Joy, currently pursuing an MCA degree. I enjoy solving complex problems, developing projects that make an impact, and continuously learning new technologies.</p>
+                <p>I have expertise in a variety of programming languages, web development, and database management systems.</p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li><i class="fas fa-code"></i> C, C++, Java, Python</li>
+                    <li><i class="fas fa-desktop"></i> HTML, CSS, JavaScript</li>
+                    <li><i class="fas fa-database"></i> MySQL, Oracle</li>
+                    <li><i class="fas fa-tools"></i> MS Excel, Word, PowerPoint</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li><i class="fas fa-book"></i> Reading books</li>
+                    <li><i class="fas fa-music"></i> Listening to music</li>
+                    <li><i class="fas fa-mountain"></i>Outdoor activities and games</li>
+                    <li><i class="fas fa-gamepad"></i> Playing puzzle games</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>1. Z Transform (Undergraduate Project)</h3>
+                <p>Description: A project on Z Transform and its applications.(Non IT)</p>
+                <a href="https://drive.google.com/file/d/1Y7zhx_q0naEAHTzy7lUot7NaY6tUUh2x/view?usp=sharing" target="_blank">View</a>
+            </div>
+            <div class="project-item">
+                <h3>2. Chatbot using IBM Watson (Postgraduate Project)</h3>
+                <p>Description: Developed a chatbot using IBM Watson to automate customer queries.</p>
+                <a href="https://drive.google.com/file/d/1jFsynXQtd7edn6mD-V3Upw9016y57rzx/view?usp=sharing" target="_blank">Details</a>
+                <a href="https://cloud-object-storage-cos-static-web-hosting-v4p.s3.jp-tok.cloud-object-storage.appdomain.cloud/UNICODERS/bot.html" target="_blank">Demo</a>
+            </div>
+            <div class="project-item">
+                <h3>3. Flood Prediction (Current Project)</h3>
+                <p>Description: A project to predict floods based on historical data using machine learning algorithms.</p>
+                <a href="https://drive.google.com/file/d/1azBciJKyNnDeyxnHl7CM1pj9-_sdkD04/view?usp=sharing" target="_blank">Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="thank-you-message" style="display:none;">
+                <p>Thank you for contacting me! I'll get back to you soon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
